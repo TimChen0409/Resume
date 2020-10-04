@@ -10572,7 +10572,7 @@ a.text-dark:focus {
 }
 
 body {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: "Noto Sans TC", Arial, sans-serif;
   background: #fff;
   font-size: 16px;
   line-height: 1.8;
@@ -11117,10 +11117,6 @@ h5,
 
 .btn {
   cursor: pointer;
-  -webkit-border-radius: 40px;
-  -moz-border-radius: 40px;
-  -ms-border-radius: 40px;
-  border-radius: 40px;
   -webkit-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
   -moz-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
   box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
@@ -11276,7 +11272,7 @@ h5,
 
 .page {
   width: 100%;
-  margin-bottom: 7em;
+  margin-bottom: 2em;
 }
 .page.four {
   margin-bottom: 0;
@@ -11731,7 +11727,7 @@ textarea.form-control {
 }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 2em 0;
   position: relative;
 }
 @media (max-width: 767.98px) {
@@ -11755,8 +11751,6 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   background: #000000;
-  padding: 7em 0;
-  z-index: 0;
 }
 .ftco-footer .ftco-footer-logo {
   text-transform: uppercase;
@@ -11765,7 +11759,7 @@ textarea.form-control {
 .ftco-footer .ftco-footer-widget h2 {
   font-weight: normal;
   color: #fff;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   font-size: 22px;
   font-weight: 600;
 }
@@ -12527,7 +12521,7 @@ textarea.form-control {
 .section-heading {
   margin-bottom: 30px;
   position: relative;
-  z-index: 10;
+  z-index: 1;
 }
 .section-heading h2 {
   position: relative;
@@ -12621,7 +12615,6 @@ textarea.form-control {
 }
 
 .btn {
-  border-radius: 100px;
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 0.2rem;
@@ -12700,4 +12693,31 @@ textarea.form-control {
 }
 .filters ul li.active {
   color: #bac964;
+}
+
+.filters-content h3 {
+  font-size: 18px;
+  text-align: center;
+}
+
+#section-portfolio h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+#about-section ul li a {
+  margin-right: 5px;
+}
+
+.filters-content .thumb {
+  height: 240px;
+}
+
+.single-portfolio {
+  margin-bottom: 10px;
+}
+
+.single-portfolio img:hover {
+  transition: .4s;
+  filter: brightness(1.1);
 }
