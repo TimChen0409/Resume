@@ -10990,6 +10990,16 @@ h5,
   top: 550px;
 }
 
+
+
+@media screen and (max-width: 768px) {
+  .mouse  {
+    top: 400px;
+  } 
+}
+
+
+
 .mouse-icon {
   width: 70px;
   height: 70px;
