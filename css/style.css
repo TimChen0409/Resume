@@ -10897,6 +10897,7 @@ h5,
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .hero-wrap .overlay {
   position: absolute;
   top: 0;
@@ -10914,9 +10915,9 @@ h5,
 
 .slider-text .subheading {
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 800;
-  color: #3e64ff;
+  color: #007bff;
   letter-spacing: 4px;
 }
 
@@ -10934,7 +10935,7 @@ h5,
   font-weight: 800;
 }
 .slider-text h2 span {
-  color: #3e64ff;
+  color: #007bff;
   text-decoration: underline;
 }
 
